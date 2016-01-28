@@ -117,7 +117,7 @@ function resimple() {
 chrome.contextMenus.create({
 	"id": "toggle",
 	"title": "Simple Mode",
-	"contexts": ["all"],
+	"contexts": ["browser_action"],
 	"onclick": resimple
 });
 
